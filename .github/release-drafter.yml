@@ -1,5 +1,3 @@
-name-template: v$NEXT_PATCH_VERSION
-tag-template: v$NEXT_PATCH_VERSION
 categories:
   - title: 🚀 Features
     labels: 
@@ -20,7 +18,6 @@ categories:
     label: break
   - title: Reverted
     label: revert
-tag-template: - $TITLE @$AUTHOR (#$NUMBER)
 template: |
   ## Changes
 
