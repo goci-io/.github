@@ -2,22 +2,22 @@ categories:
   - title: ":rocket: Features"
     labels: 
       - feature
-      - feat
       - improvement
-      - refactor
-      - perf
   - title: ":bug: Bug Fixes"
-    labels:
-      - fix
-      - bug
+    label: bug
+  - title: ":warning: Security"
+    label: security
   - title: ":construction: Maintenance"
-    labels: 
-      - chore
-      - ci
+    label: chore
   - title: ":bangbang: Breaking changes"
-    label: break
-  - title: ":arrow_upper_right: Reverted"
-    label: revert
+    label: breaking
+  - title: ":speech_balloon: Documentation"
+    label: documentation
+
+template: |
+  ## Changes for v$NEXT_MAJOR_VERSION.$NEXT_MINOR_VERSION.$NEXT_PATCH_VERSION
+
+  $CHANGES
 
 replacers:
   - search: '/CVE-(\d{4})-(\d+)/g'
