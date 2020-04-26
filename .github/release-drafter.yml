@@ -2,15 +2,30 @@ name-template: v$NEXT_PATCH_VERSION
 tag-template: v$NEXT_PATCH_VERSION
 categories:
   - title: 🚀 Features
-    label: feature
+    labels: 
+      - feature
+      - feat
+      - improvement
+      - refactor
+      - perf
   - title: 🐛 Bug Fixes
-    label: fix
+    labels:
+      - fix
+      - bug
   - title: 🧰 Maintenance
-    label: chore
+    labels: 
+      - chore
+      - ci
   - title: 🧰 Breaking changes
     label: break
+  - title: Reverted
+    label: revert
 tag-template: - $TITLE @$AUTHOR (#$NUMBER)
 template: |
   ## Changes
 
   $CHANGES
+
+replacers:
+  - search: '/CVE-(\d{4})-(\d+)/g'
+    replace: 'https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-$1-$2'
