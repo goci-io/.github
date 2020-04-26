@@ -1,22 +1,22 @@
 categories:
-  - title: :rocket: Features
+  - title: ":rocket: Features"
     labels: 
       - feature
       - feat
       - improvement
       - refactor
       - perf
-  - title: :bug: Bug Fixes
+  - title: ":bug: Bug Fixes"
     labels:
       - fix
       - bug
-  - title: :construction: Maintenance
+  - title: ":construction: Maintenance"
     labels: 
       - chore
       - ci
-  - title: :bangbang: Breaking changes
+  - title: ":bangbang: Breaking changes"
     label: break
-  - title: :arrow_upper_right: Reverted
+  - title: ":arrow_upper_right: Reverted"
     label: revert
 template: |
   ## Changes
