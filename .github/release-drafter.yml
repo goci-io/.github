@@ -16,7 +16,7 @@ categories:
     label: documentation
 
 template: |
-  ## Changes for v$NEXT_MAJOR_VERSION
+  ## Changes
 
   $CHANGES
 
