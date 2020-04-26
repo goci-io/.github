@@ -18,10 +18,6 @@ categories:
     label: break
   - title: ":arrow_upper_right: Reverted"
     label: revert
-template: |
-  ## Changes
-
-  $CHANGES
 
 replacers:
   - search: '/CVE-(\d{4})-(\d+)/g'
